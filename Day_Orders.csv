@@ -1,0 +1,5 @@
+Time,Market,Ticker,Trade,Type,Quantity,Price
+16:30:00,,OE U1 Index,Sell,Market,3,
+16:30:00,,ES U1 Index,Sell,Market,4,
+16:30:00,,UX N1 Index,Buy,Stop,5,22
+16:30:00,,RX U1 Index,Buy,Limit,2,173.7
