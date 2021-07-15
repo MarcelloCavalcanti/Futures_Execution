@@ -13,8 +13,8 @@ import numpy as np
 os.chdir('C:/Users/MarcelloCavalcanti/Google Drive/Trading/Python/Models/Stochastic_Pair_Trading/Fasanara/Futures_Execution/')
 from account_manager import FlexNowExecution
 
-file1 = 'C:/Users/MarcelloCavalcanti/Google Drive/Trading/Python/Models/Stochastic_Pair_Trading/Fasanara/Futures_Execution/Day_Orders.csv'
-Order_Book = pd.read_csv(file1)
+file1 = 'C:/Users/MarcelloCavalcanti/Google Drive/Trading/Python/Models/Stochastic_Pair_Trading/Fasanara/Futures_Execution/Quant Execution.xlsx'
+Order_Book = pd.read_excel(file1)
 file2 = 'C:/Users/MarcelloCavalcanti/Google Drive/Trading/Python/Models/Stochastic_Pair_Trading/Fasanara/Futures_Execution/contract_specs.csv'
 Order_Map = pd.read_csv(file2,index_col=0)
 Order_Map['Expiry'] = pd.to_datetime(Order_Map['Expiry']).dt.strftime('%Y-%m-%d')
